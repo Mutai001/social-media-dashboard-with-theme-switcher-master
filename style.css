@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(230, 17%, 14%);
+}
+
+main {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 30px;
+    color: white;
+    font-family: "inter";
+}
+
+.head-setion {
+    background-color: hsl(232, 19%, 15%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-container {
+    display: flex;
+}
+
+.top-medias {
+    background-color: hsl(228, 28%, 20%);
+    border-top: solid 4px rgb(6, 74, 161);
+    padding: 20px 40px 20px 40px;
+    margin: 10px 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.youtube {
+    background-color: hsl(228, 28%, 20%);
+    border-top: solid 4px hwb(0 3% 9% / 0.795);
+    padding: 20px 40px 20px 40px;
+    margin: 10px 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.insta-container {
+    background-color: hsl(228, 28%, 20%);
+    border-top: solid 4px rgba(232, 165, 8, 0.913);
+    padding: 20px 40px 20px 40px;
+    margin: 10px 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.top-medias svg {
+    margin-left: 20%;
+}
+
+.youtube svg {
+    margin-left: 20%;
+}
+
+.insta-container svg {
+    margin-left: 20%;
+}
+
+.top-medias .highlight {
+    margin-left: 10px;
+    color: darkgray;
+    font-size: smaller;
+    float: right;
+}
+
+.youtube .highlight {
+    margin-left: 10px;
+    color: darkgray;
+    font-size: smaller;
+    float: right;
+}
+
+.insta-container .highlight {
+    margin-left: 10px;
+    color: darkgray;
+    font-size: smaller;
+    float: right !important;
+}
+
+.top-medias h1 {
+    padding: 10px 10px 5px 10px;
+}
+
+.insta-container h1 {
+    padding: 10px 10px 5px 10px;
+}
+
+.youtube h1 {
+    padding: 10px 10px 5px 10px;
+}
+
+.top-medias p {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: darkgray;
+    padding: 0px 10px 5px 10px;
+}
+
+.youtube p {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: darkgray;
+    padding: 0px 10px 5px 10px;
+}
+
+.insta-container p {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: darkgray;
+    padding: 0px 10px 5px 10px;
+}
+
+.top-medias .up {
+    font-size: 12px;
+    color: rgb(5, 167, 115);
+    padding: 5px;
+}
+
+.insta-container .up {
+    font-size: 12px;
+    color: rgb(5, 167, 115);
+    padding: 5px;
+}
+
+.youtube .down {
+    font-size: 12px;
+    color: hwb(0 3% 9% / 0.795);
+    padding: 5px;
+}
+
+.top-medias .down {
+    font-size: 12px;
+    color: hwb(0 3% 9% / 0.795);
+    padding: 5px;
+}
+
+.lower-container {
+    display: grid;
+}
+
+.wrapper {
+    background-color: hsl(228, 28%, 20%);
+    padding: 20px;
+    margin: 10px 10px;
+    height: 90px;
+    width: 200px;
+}
+
+.one-t {
+    color: darkgray;
+    font-size: 12px;
+}
+
+.topline {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.lowerline {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.wrapper .svg-down {
+    color: red;
+    font-size: 10px;
+}
+
+.wrapper .svg {
+    color: green;
+    font-size: 10px;
+}
