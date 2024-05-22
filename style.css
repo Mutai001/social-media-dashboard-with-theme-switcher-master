@@ -10,10 +10,10 @@ body {
 }
 
 main {
-    width: 80%;
+    width: 90%;
     height: 100vh;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
     color: white;
     font-family: "inter";
 }
@@ -33,8 +33,9 @@ main {
     border-top: solid 4px rgb(6, 74, 161);
     padding: 20px 40px 20px 40px;
     margin: 10px 10px;
-    height: 170px;
-    width: 200px;
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
 }
 
 .youtube {
@@ -42,8 +43,9 @@ main {
     border-top: solid 4px hwb(0 3% 9% / 0.795);
     padding: 20px 40px 20px 40px;
     margin: 10px 10px;
-    height: 170px;
-    width: 200px;
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
 }
 
 .insta-container {
@@ -51,20 +53,21 @@ main {
     border-top: solid 4px rgba(232, 165, 8, 0.913);
     padding: 20px 40px 20px 40px;
     margin: 10px 10px;
-    height: 170px;
-    width: 200px;
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
 }
 
-.top-medias svg {
-    margin-left: 20%;
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 1.5rem;
 }
 
-.youtube svg {
-    margin-left: 20%;
-}
-
-.insta-container svg {
-    margin-left: 20%;
+.icon {
+    display: flex;
+    margin-left: 50px;
 }
 
 .top-medias .highlight {
@@ -89,54 +92,67 @@ main {
 }
 
 .top-medias h1 {
-    padding: 10px 10px 5px 10px;
+    padding: 10px 5px 10px 50px;
 }
 
 .insta-container h1 {
-    padding: 10px 10px 5px 10px;
+    padding: 10px 5px 10px 50px;
 }
 
 .youtube h1 {
-    padding: 10px 10px 5px 10px;
+    padding: 10px 5px 10px 50px;
 }
 
 .top-medias p {
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: darkgray;
-    padding: 0px 10px 5px 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
 }
 
 .youtube p {
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: darkgray;
-    padding: 0px 10px 5px 10px;
+    margin-left: 30px;
 }
 
 .insta-container p {
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: darkgray;
-    padding: 0px 10px 5px 10px;
+    margin-left: 30px;
 }
 
 .top-medias .up {
     font-size: 12px;
     color: rgb(5, 167, 115);
-    padding: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .insta-container .up {
     font-size: 12px;
     color: rgb(5, 167, 115);
     padding: 5px;
+    margin: 10px 20px 0px 50px;
 }
 
 .youtube .down {
     font-size: 12px;
     color: hwb(0 3% 9% / 0.795);
     padding: 5px;
+}
+
+.down img {
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.up img {
+    margin-left: 50px;
+    padding-top: 20px;
 }
 
 .top-medias .down {
@@ -154,11 +170,29 @@ main {
 }
 
 .darkmode-btn {
-    margin: 10px 100px 20px 20px;
+    /* margin: 10px 100px 20px 20px;
+    background-color: lightgreen;
+    border-radius: 12px;
+    width: 40px;
+    height: 20px;
+    color: black;
+    display: flex;
+    margin-left: 20px; */
+    margin: 10px 50px 20px 20px;
 }
 
-h2 {
-    margin: 10px 20px 20px 20px;
+.darkmode-btn p {
+    color: #fff;
+    float: left;
+}
+
+.darkmode-btn label {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 20px;
+    color: #fff;
 }
 
 .lower-container-2 {
@@ -168,9 +202,10 @@ h2 {
 .wrapper {
     background-color: hsl(228, 28%, 20%);
     padding: 20px;
-    margin: 10px 10px;
-    height: 90px;
-    width: 200px;
+    margin: 5px 5px;
+    height: 150px;
+    width: 300px;
+    border-radius: 8px;
 }
 
 .one-t {
@@ -181,7 +216,7 @@ h2 {
 .topline {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 .lowerline {
@@ -203,6 +238,8 @@ h2 {
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
 }
 
 .attribution a {
