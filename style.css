@@ -33,8 +33,8 @@ main {
     border-top: solid 4px rgb(6, 74, 161);
     padding: 20px 40px 20px 40px;
     margin: 10px 10px;
-    height: 200px;
-    width: 300px;
+    height: 170px;
+    width: 200px;
 }
 
 .youtube {
@@ -42,8 +42,8 @@ main {
     border-top: solid 4px hwb(0 3% 9% / 0.795);
     padding: 20px 40px 20px 40px;
     margin: 10px 10px;
-    height: 200px;
-    width: 300px;
+    height: 170px;
+    width: 200px;
 }
 
 .insta-container {
@@ -51,8 +51,8 @@ main {
     border-top: solid 4px rgba(232, 165, 8, 0.913);
     padding: 20px 40px 20px 40px;
     margin: 10px 10px;
-    height: 200px;
-    width: 300px;
+    height: 170px;
+    width: 200px;
 }
 
 .top-medias svg {
@@ -146,7 +146,23 @@ main {
 }
 
 .lower-container {
-    display: grid;
+    display: flex;
+}
+
+.tittle-contents {
+    margin: 10px 20px 20px 20px;
+}
+
+.darkmode-btn {
+    margin: 10px 100px 20px 20px;
+}
+
+h2 {
+    margin: 10px 20px 20px 20px;
+}
+
+.lower-container-2 {
+    display: flex;
 }
 
 .wrapper {
@@ -182,4 +198,13 @@ main {
 .wrapper .svg {
     color: green;
     font-size: 10px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 19%, 70%);
 }
