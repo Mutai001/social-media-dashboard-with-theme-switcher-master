@@ -170,15 +170,16 @@ h2 {
 }
 
 .darkmode-btn {
-    /* margin: 10px 100px 20px 20px;
-    background-color: lightgreen;
-    border-radius: 12px;
-    width: 40px;
-    height: 20px;
-    color: black;
-    display: flex;
-    margin-left: 20px; */
     margin: 10px 50px 20px 20px;
+}
+
+.darkmode-btn .bg {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: lightgreen;
+    transition: 0.5s;
+    box-sizing: inset 0 8px 60px rgba(0, 0, 0, 1);
 }
 
 .darkmode-btn p {
