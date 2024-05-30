@@ -236,6 +236,75 @@ h2 {
     font-size: 10px;
 }
 
+
+/* Add these styles to your existing CSS */
+
+.toggle-label {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.toggle-label input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgb(24, 243, 82);
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #4CAF50;
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+}
+
+
+/* Light and Dark Theme Styles */
+
+body.light-theme {
+    background-color: white;
+    color: black;
+}
+
+.head-setion.light-theme {
+    background-color: #fff;
+    color: black;
+}
+
+.top-medias.light-theme,
+.insta-container.light-theme,
+.youtube.light-theme,
+.wrapper.light-theme {
+    background-color: #ece7e7;
+    color: black;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -246,3 +315,68 @@ h2 {
 .attribution a {
     color: hsl(228, 19%, 70%);
 }
+
+
+/* Mobile (up to 600px) */
+
+@media (max-width: 600px) {
+    .head-setion {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .top-medias,
+    .youtube,
+    .insta-container,
+    .wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+    .top-container,
+    .lower-container,
+    .lower-container-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tittle-contents {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Tablet (601px to 1024px) */
+
+@media (min-width: 601px) and (max-width: 601px) {
+    .top-medias,
+    .youtube,
+    .insta-container,
+    .wrapper {
+        width: 100%;
+    }
+    .head-setion {
+        flex-direction: row;
+    }
+    .top-container,
+    .lower-container,
+    .lower-container-2 {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* Large Screens (1025px and up) */
+
+
+/* @media (min-width: 1025px) {
+    .top-medias,
+    .youtube,
+    .insta-container,
+    .wrapper {
+        width: 23%;
+    }
+    .top-container,
+    .lower-container,
+    .lower-container-2 {
+        justify-content: space-between;
+    }
+} */
