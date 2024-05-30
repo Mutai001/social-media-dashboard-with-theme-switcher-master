@@ -20,5 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
             wrappers.forEach(wrapper => wrapper.classList.remove('light-theme'));
             themeText.textContent = 'Light Mode';
         }
+
+
     });
 });
